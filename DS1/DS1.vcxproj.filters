@@ -21,7 +21,7 @@
     <ClCompile Include="Node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="List.h">
+    <ClInclude Include="Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

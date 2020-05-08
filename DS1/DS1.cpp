@@ -1,15 +1,21 @@
 #include <iostream>
-#include "List.h"
 #include<assert.h>
-#include <stack>
+#include "Stack.h"
+#include "Stack.cpp"
 using namespace std;
 
 int main()
 {
-	//push
-	//pop
-	//top
-	//empty
-	//size
+	Stack<int> st;
+	st.push(1);
+	st.push(2);
+	st.push(3);
+	cout << st.top() << endl;
+	st.pop();
+	cout << st.top() << endl;
+	st.pop();
+	cout << st.top() << endl;
+	st.pop();
+	cout << st.top() << endl;
 	return 0;
 }

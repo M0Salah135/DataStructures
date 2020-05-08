@@ -1,6 +1,7 @@
 #include "Node.h"
 
-Node::Node(int val) : next(nullptr), value(val)
+template <class T>
+Node<T>::Node(T val) : next(nullptr), value(val)
 {
 
 }
