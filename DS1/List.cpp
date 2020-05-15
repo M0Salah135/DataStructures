@@ -57,6 +57,27 @@ void List::insert(int index, int val)
 	size++;
 }
 
+void List::remove(int index)
+{
+	assert(index <= size && index >= 0);
+	if (index == 0)
+		head = head->next;
+	else
+	{
+	Node* beforeN = head;
+	Node* afterN = head->next;
+	int i = 0;
+	while (i < index-1)
+	{
+		beforeN = beforeN->next;
+		afterN = afterN->next;
+		i++;
+	}
+	beforeN->next = afterN->next;
+	}
+	size--;
+}
+
 List::List() : head(nullptr), size(0)
 {
 

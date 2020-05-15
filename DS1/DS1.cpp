@@ -11,7 +11,9 @@ int main()
 	l.append(3);
 	l.append(4);
 	l.print();
-	l.insert(-1, 100);
+	l.insert(0, 100);
+	l.print();
+	l.remove(0);
 	l.print();
 	return 0;
 }

@@ -9,6 +9,7 @@ public:
 	void append(int val);
 	void print();
 	void insert(int index, int val);
+	void remove(int index);
 	List();
 	~List();
 };
